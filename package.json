@@ -1,6 +1,6 @@
 {
   "name": "ls",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NodeJS project with jenkins CI/CD",
   "main": "index.js",
   "scripts": {
