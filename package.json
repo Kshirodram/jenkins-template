@@ -1,0 +1,25 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "NodeJS project with jenkins CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "test": "./node_modules/.bin/mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kshirodram/jenkins-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kshirodram/jenkins-template/issues"
+  },
+  "homepage": "https://github.com/Kshirodram/jenkins-template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+}
